@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-console.log('Hello from reddit cl'); 
+console.log('Hello from reddit cli'); 
 
 
  
