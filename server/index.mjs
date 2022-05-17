@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
             body += chunk.toString()
         })
         req.on('close', () => {
-            console.log(body)
+            console.log(JSON.parse(body))
         })
         res.writeHead(201)
         res.end('ok')
