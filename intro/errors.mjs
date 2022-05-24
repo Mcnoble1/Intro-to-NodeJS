@@ -41,5 +41,5 @@ process.on('uncaughtException', (e) => {
     console.log(e)
 })
 
-const result = awaitcd readFile(new URL('app.ms', import.meta.url), 'utf8')
+const result = await readFile(new URL('app.ms', import.meta.url), 'utf8')
 console.log('Hello')
